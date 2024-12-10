@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['Bottle', 'BoxInsideWrap', 'CardboardBox', 'ItemPackaging', 'Mirror', 'Package', 'PackagingAirBags', 'Pen', 'PlasticContainer', 'SweetsJar', 'scissors']
+
+roboflow:
+  workspace: inthebin
+  project: inthebinrgb
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/inthebin/inthebinrgb/1
